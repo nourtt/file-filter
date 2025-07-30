@@ -40,16 +40,15 @@ This project is a command-line utility written in Java that processes text files
 -   Apache Commons CLI 1.5.0
 
 ### Clone and Build
-<pre><code>```bash
+<pre><code>
 git clone repo-url
 cd file-filter
 mvn clean package
-```
+
 </code></pre>
 The compiled .jar file will be in the target/ folder — likely named:
-<pre><code>```bash
+<pre><code>
 target/util-jar-with-dependencies.jar
-```
 </code></pre>
 
 ---
