@@ -1,4 +1,4 @@
-# File FIlter
+# File Filter
 
 This project is a command-line utility written in Java that processes text files by classifying each line into one of three types: **integers**, **floating-point numbers**, or **strings**. The program then writes each type into separate output files and optionally generates summary or full statistics.
 
@@ -35,24 +35,29 @@ This project is a command-line utility written in Java that processes text files
 
 ### Prerequisites
 -	Java 16 or above
--	Maven
+-	Apache Maven 3.9.1 or above
+### External libraries
+-   Apache Commons CLI 1.5.0
 
 ### Clone and Build
-<pre><code>
-git clone <repo-url>
-cd SHIFT-task
+<pre><code>```bash
+git clone repo-url
+cd file-filter
 mvn clean package
+```
 </code></pre>
 The compiled .jar file will be in the target/ folder — likely named:
-<pre><code>
+<pre><code>```bash
 target/util-jar-with-dependencies.jar
+```
 </code></pre>
 
 ---
 
 ## 🚀 Usage
-<pre><code>
+<pre><code>```bash
 java -jar target/util-jar-with-dependencies.jar [options] file1.txt file2.txt ...
+```
 </code></pre>
 ### Options
 
